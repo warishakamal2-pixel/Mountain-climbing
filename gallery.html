@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Gallery – Alpine Ascents</title>
+    <meta name="description" content="Mountain gallery.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="gallery">
+    <div id="nav"></div>
+    <main>
+        <section style="padding-top:7rem">
+            <div class="wrap rv">
+                <h1 style="font-size:clamp(2rem,5vw,3.5rem)">Gallery</h1>
+                <div class="tools"><select id="cat" aria-label="Category">
+                        <option value="">All</option>
+                    </select></div>
+                <div id="grid" class="grid">Loading…</div>
+                <dialog id="lb">
+                    <p id="cap"></p>
+                    <form method="dialog"><button class="btn">Close</button></form>
+                </dialog>
+            </div>
+        </section>
+    </main>
+    <div id="foot"></div>
+    <script src="js/media.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

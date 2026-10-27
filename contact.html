@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contact – Alpine Ascents</title>
+    <meta name="description" content="Contact us.">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-page="contact">
+    <div id="nav"></div>
+    <main>
+        <section style="padding-top:7rem">
+            <div class="wrap rv">
+                <h1 style="font-size:clamp(2rem,5vw,3.5rem)">Contact</h1>
+                <form data-form novalidate>
+                    <div><label for="n">Full name</label><input id="n" name="n" type="text" required><span
+                            class="err"></span></div>
+                    <div><label for="e">Email</label><input id="e" name="e" type="email" required><span
+                            class="err"></span></div>
+                    <div><label for="m">Message</label><textarea id="m" rows="4"></textarea></div><button
+                        class="btn pri">Send message</button>
+                    <p class="ok" role="status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+    <div id="foot"></div>
+    <script src="js/media.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
