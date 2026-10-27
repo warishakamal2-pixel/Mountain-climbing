@@ -115,23 +115,42 @@ nav ul {
 nav a {
     color: var(--snow);
     text-decoration: none;
-    font-size: .85rem;
-    opacity: .8
+    font-size: .95rem;
+    font-weight: 600;
+    opacity: .9;
+    display: inline-block;
+    padding: .5rem .65rem;
+    border-radius: 6px;
+    transition: color .2s ease, background-color .2s ease, transform .2s ease
 }
 
 nav a:hover,
 nav a[aria-current] {
     opacity: 1;
-    color: var(--ice)
+    color: #fffdf9;
+    background: #4a3524;
+    transform: translateY(-1px)
 }
 
 #menu {
     display: none;
-    background: none;
+    background: var(--bg2);
     border: 1px solid var(--line);
+    border-radius: 6px;
     color: var(--snow);
     padding: .6rem .9rem;
-    min-height: 44px
+    min-height: 44px;
+    font-size: .95rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: color .2s ease, background-color .2s ease, border-color .2s ease
+}
+
+#menu:hover,
+#menu[aria-expanded="true"] {
+    color: #fffdf9;
+    background: #4a3524;
+    border-color: #4a3524
 }
 
 .btn {
