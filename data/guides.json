@@ -2,37 +2,16 @@
     {
         "name": "Alpine route planning",
         "role": "Route selection and conditions",
-        "bio": "Match a route to the team's experience, weather and terrain.",
-        "image": {
-            "alt": "Climber ascending a rugged cliff with a backpack",
-            "credit": "Pexels",
-            "license": "Pexels License",
-            "page": "https://images.pexels.com/photos/28164876/pexels-photo-28164876.jpeg",
-            "local": "assets/images/climbing/guide-climber-rope.jpg"
-        }
+        "bio": "Match a route to the team's experience, weather and terrain."
     },
     {
         "name": "Climbing systems",
         "role": "Ropes and technical movement",
-        "bio": "Use climbing systems and agreed movement practices on exposed terrain.",
-        "image": {
-            "alt": "Climber scaling a rugged outdoor surface",
-            "credit": "Pexels",
-            "license": "Pexels License",
-            "page": "https://images.pexels.com/photos/39877504/pexels-photo-39877504.jpeg",
-            "local": "assets/images/climbing/guide-climber-wall.jpg"
-        }
+        "bio": "Use climbing systems and agreed movement practices on exposed terrain."
     },
     {
         "name": "High-altitude readiness",
         "role": "Acclimatization and health",
-        "bio": "Plan a gradual ascent and monitor health throughout a high-altitude climb.",
-        "image": {
-            "alt": "Climber wearing a helmet on a steep rock face",
-            "credit": "Pexels",
-            "license": "Pexels License",
-            "page": "https://images.pexels.com/photos/16824426/pexels-photo-16824426.jpeg",
-            "local": "assets/images/climbing/guide-alpine-climber.jpg"
-        }
+        "bio": "Plan a gradual ascent and monitor health throughout a high-altitude climb."
     }
 ]
