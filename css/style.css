@@ -191,17 +191,44 @@ nav a[aria-current] {
 .card {
     background: var(--bg2);
     border: 1px solid var(--line);
+    border-radius: 12px;
+    box-shadow: 0 3px 10px #60452b12;
     overflow: hidden;
-    transition: .4s;
+    transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
     display: flex;
     flex-direction: column
 }
 
 .card:hover {
     transform: translateY(-4px);
+    box-shadow: 0 8px 20px #60452b24;
     border-color: var(--ice)
 }
 
+.ph {
+    aspect-ratio: 16/10;
+    background: linear-gradient(160deg, #e1d3be, #c8b296);
+    display: grid;
+    place-items: center;
+    color: var(--stone);
+    font: .75rem system-ui;
+    text-align: center;
+    padding: 1rem;
+    position: relative
+}
+
+.ph img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform .35s ease
+}
+
+.card:hover .ph img {
+    transform: scale(1.04)
+}
 .card .body {
     padding: 1.2rem;
     flex: 1;
@@ -431,6 +458,58 @@ footer {
     }
 }
 
+/* ---- media: hero picture/video + photo credits ---- */
+.hero .wrap {
+    z-index: 1
+}
+
+.hasimg:before {
+    display: none
+}
+
+.hasimg:after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(#33241924, #332419d9 95%)
+}
+
+.bgv {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: .72
+}
+
+.credit {
+    display: block;
+    font: .7rem system-ui;
+    color: var(--stone);
+    padding: .4rem 1.2rem
+}
+
+.page-photo {
+    margin: 1.5rem 0 2rem
+}
+
+.page-photo img {
+    display: block;
+    width: 100%;
+    height: clamp(220px, 32vw, 420px);
+    object-fit: cover;
+    border: 1px solid var(--line)
+}
+
+.herocredit {
+    position: absolute;
+    right: 0;
+    bottom: .3rem;
+    z-index: 2
+}
+
+/* The autoplay climbing video is confined to the homepage hero. */
 .hero .wrap,
 .hero p {
     color: #fffdf9
@@ -440,4 +519,10 @@ footer {
     border-color: #fffdf9;
     background: #fffdf9;
     color: #4a3524
+}
+
+@media(prefers-reduced-motion:reduce) {
+    .bgv {
+        display: none
+    }
 }

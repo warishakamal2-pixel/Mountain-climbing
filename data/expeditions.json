@@ -9,7 +9,14 @@
         "season": "April–May (typical)",
         "cost": null,
         "overview": "The world's highest mountain. Requires prior high-altitude experience, supplemental oxygen planning and extensive permits.",
-        "source": "https://www.britannica.com/place/Mount-Everest"
+        "source": "https://www.britannica.com/place/Mount-Everest",
+        "image": {
+            "alt": "Climber in red ascending a snowy mountain peak",
+            "credit": "Pexels",
+            "license": "Pexels License",
+            "page": "https://images.pexels.com/photos/31953965/pexels-photo-31953965.jpeg",
+            "local": "assets/images/climbing/expedition-everest.jpg"
+        }
     },
     {
         "id": "k2",
@@ -21,7 +28,14 @@
         "season": "June–August (typical)",
         "cost": null,
         "overview": "One of the most technically demanding 8,000 m peaks, with a serious fatality record. Expert-level only.",
-        "source": "https://www.britannica.com/place/K2-mountain"
+        "source": "https://www.britannica.com/place/K2-mountain",
+        "image": {
+         "alt": "Climber ascending a snowy Nepalese mountain",
+         "credit": "Pexels",
+         "license": "Pexels License",
+         "page": "https://images.pexels.com/photos/37358046/pexels-photo-37358046.jpeg",
+         "local": "assets/images/climbing/expedition-k2.jpg"
+        }
     },
     {
         "id": "denali",
@@ -33,7 +47,14 @@
         "season": "May–July (typical)",
         "cost": null,
         "overview": "North America's highest peak: extreme cold, glacier travel and heavy loads. NPS registration and fees apply.",
-        "source": "https://www.nps.gov/dena/planyourvisit/climbing-denali-and-foraker.htm"
+        "source": "https://www.nps.gov/dena/planyourvisit/climbing-denali-and-foraker.htm",
+        "image": {
+         "alt": "Mountaineer climbing a snowy slope in winter gear",
+         "credit": "Pexels",
+         "license": "Pexels License",
+         "page": "https://images.pexels.com/photos/37066502/pexels-photo-37066502.jpeg",
+         "local": "assets/images/climbing/expedition-denali.jpg"
+        }
     },
     {
         "id": "aconcagua",
@@ -45,7 +66,14 @@
         "season": "December–February (typical)",
         "cost": null,
         "overview": "Highest peak outside Asia. Non-technical by the normal route but a serious high-altitude objective. Permit required.",
-        "source": "https://www.britannica.com/place/Mount-Aconcagua"
+        "source": "https://www.britannica.com/place/Mount-Aconcagua",
+        "image": {
+         "alt": "Climber ascending snowy peaks with ropes and safety gear",
+         "credit": "Pexels",
+         "license": "Pexels License",
+         "page": "https://images.pexels.com/photos/18331843/pexels-photo-18331843.jpeg",
+         "local": "assets/images/climbing/expedition-aconcagua.jpg"
+        }
     },
     {
         "id": "kilimanjaro",
@@ -57,7 +85,14 @@
         "season": "January–March, June–October (typical)",
         "cost": null,
         "overview": "A walk-up high-altitude trek where altitude sickness remains the main risk. Park fees and licensed operators required.",
-        "source": "https://www.tanzaniaparks.go.tz"
+        "source": "https://www.tanzaniaparks.go.tz",
+        "image": {
+         "alt": "Climber ascending a snowy peak at sunrise",
+         "credit": "Pexels",
+         "license": "Pexels License",
+         "page": "https://images.pexels.com/photos/38336100/pexels-photo-38336100.jpeg",
+         "local": "assets/images/climbing/expedition-kilimanjaro.jpg"
+        }
     },
     {
         "id": "mont-blanc",
@@ -69,6 +104,13 @@
         "season": "June–September (typical)",
         "cost": null,
         "overview": "Western Europe's highest summit. Glacier travel, rockfall and fast-changing weather; acclimatization and guiding strongly advised.",
-        "source": "https://www.britannica.com/place/Mont-Blanc"
+        "source": "https://www.britannica.com/place/Mont-Blanc",
+        "image": {
+         "alt": "Climber ascending a snow-covered rocky mountain face",
+         "credit": "Pexels",
+         "license": "Pexels License",
+         "page": "https://images.pexels.com/photos/14339510/pexels-photo-14339510.jpeg",
+         "local": "assets/images/climbing/expedition-mont-blanc.jpg"
+        }
     }
 ]

@@ -1,26 +1,68 @@
 [
     {
         "cat": "Rock climbing",
-        "caption": "Climber tackling a steep rock face"
+        "caption": "Climber tackling a steep rock face",
+        "image": {
+            "alt": "Climber tackling a steep rock face",
+            "credit": "Pexels",
+            "license": "Pexels License",
+            "page": "https://images.pexels.com/photos/13079720/pexels-photo-13079720.jpeg",
+            "local": "assets/images/climbing/gallery-climber-rock.jpg"
+        }
     },
     {
         "cat": "Alpine climbing",
-        "caption": "Climber on a jagged rock formation at sunrise"
+        "caption": "Climber on a jagged rock formation at sunrise",
+        "image": {
+            "alt": "Climber on a jagged rock formation at sunrise",
+            "credit": "Pexels",
+            "license": "Pexels License",
+            "page": "https://images.pexels.com/photos/3786287/pexels-photo-3786287.jpeg",
+            "local": "assets/images/climbing/gallery-climber-sunrise.jpg"
+        }
     },
     {
         "cat": "Alpine climbing",
-        "caption": "Solo climber ascending a dramatic rock face"
+        "caption": "Solo climber ascending a dramatic rock face",
+        "image": {
+            "alt": "Solo climber ascending a dramatic rock face",
+            "credit": "Pexels",
+            "license": "Pexels License",
+            "page": "https://images.pexels.com/photos/4389564/pexels-photo-4389564.jpeg",
+            "local": "assets/images/climbing/gallery-solo-ascent.jpg"
+        }
     },
     {
         "cat": "Rock climbing",
-        "caption": "Silhouette climbing a rocky wall at sunrise"
+        "caption": "Silhouette climbing a rocky wall at sunrise",
+        "image": {
+            "alt": "Silhouette climbing a rocky wall at sunrise",
+            "credit": "Pexels",
+            "license": "Pexels License",
+            "page": "https://images.pexels.com/photos/37516168/pexels-photo-37516168/free-photo-of-silhouette-of-climber-on-a-rocky-wall-at-sunrise.jpeg",
+            "local": "assets/images/climbing/gallery-climber-ridge.jpg"
+        }
     },
     {
         "cat": "Alpine climbing",
-        "caption": "Climber ascending a mountain with safety gear"
+        "caption": "Climber ascending a mountain with safety gear",
+        "image": {
+            "alt": "Climber ascending a mountain with safety gear",
+            "credit": "Pexels",
+            "license": "Pexels License",
+            "page": "https://images.pexels.com/photos/15966492/pexels-photo-15966492/free-photo-of-person-rock-climbing.jpeg",
+            "local": "assets/images/climbing/gallery-climber-harness.jpg"
+        }
     },
     {
         "cat": "Rock climbing",
-        "caption": "Climber scaling a large outdoor rock"
+        "caption": "Climber scaling a large outdoor rock",
+        "image": {
+            "alt": "Climber scaling a large outdoor rock",
+            "credit": "Pexels",
+            "license": "Pexels License",
+            "page": "https://images.pexels.com/photos/8729014/pexels-photo-8729014.jpeg",
+            "local": "assets/images/climbing/gallery-climber-rock-outdoors.jpg"
+        }
     }
 ]
